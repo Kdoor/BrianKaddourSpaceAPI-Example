@@ -21,7 +21,7 @@ namespace SpaceSmileBrianKaddour.Clients.LaunchPadApiClientTest
             _mocLaunchPadApiClient = new Mock<ILaunchpadApiClient>();
         }
 
-        //Would need more tests than this and this is more of an integration test... but we are reliant on them for the app to work...
+        //Would need more tests than this, very basic API test
         [Fact]
         public void LaunchPadClientShouldRecieveInfo()
         {
